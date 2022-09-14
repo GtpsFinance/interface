@@ -411,21 +411,21 @@ export default function Header() {
             {t('pool')}
           </StyledNavLink>
           <StyledNavLink id={`stake-nav-link`} to={'/quick'} style={{marginLeft: mobile?'0px':'12px'}}>
-          Rewards
+          
           </StyledNavLink>
           {/*<StyledNavLink id={`stake-nav-link`} to={'/vote'}>*/}
             {/*Vote*/}
           {/*</StyledNavLink>*/}
-          <StyledExternalLink id={`stake-nav-link`} href={'https://info.quickswap.exchange'} style={{marginLeft: mobile?'0px':'12px', marginRight: mobile?'0px':'12px'}}>
-            Charts {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
+          <StyledExternalLink id={`stake-nav-link`} href={'https://gtps.finance'} style={{marginLeft: mobile?'0px':'12px', marginRight: mobile?'0px':'12px'}}>
+            Documentation {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
           </StyledExternalLink>
 
           {account && <StyledLinkStyledButton id={`stake-nav-link`} onClick={()=>{initiateTransak(account)}} style={{marginLeft: mobile?'0px':'12px', marginRight: mobile?'4px':'12px'}}>
             Buy
           </StyledLinkStyledButton>}
 
-          <StyledExternalLink id={`startido-nav-link`} href={'https://idos.starter.xyz/quickstart'} style={{marginLeft: mobile?'12px':'12px', marginRight: mobile?'4px':'12px'}}>
-            IDO {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
+          <StyledExternalLink id={`startido-nav-link`} href={'https://gtps.finance'} style={{marginLeft: mobile?'12px':'12px', marginRight: mobile?'4px':'12px'}}>
+            Vault {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
           </StyledExternalLink>
           
           
@@ -440,8 +440,8 @@ export default function Header() {
             )}
           </HideSmall>
           <HideSmall>
-            <StyledExternalLink id={`stake-nav-link`} href={'https://wallet.matic.network/'} style={{marginLeft: mobile?'0px':'12px', marginRight: mobile?'0px':'12px'}}>
-                Bridge Assets {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
+          <StyledExternalLink id={`stake-nav-link`} href={'https://gtps.finance'} style={{marginLeft: mobile?'0px':'12px', marginRight: mobile?'0px':'12px'}}>
+                Swap On Ethereum {!mobile && <span style={{ fontSize: '11px' }}>↗</span>}
               </StyledExternalLink>
           </HideSmall>
           {availableClaim && !showClaimPopup && (
@@ -475,7 +475,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                QUICK
+                GTPS
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
@@ -485,8 +485,8 @@ export default function Header() {
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && Number(userEthBalance?.toSignificant(4)) > 0 ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
-                {userEthBalance?.toSignificant(4)} MATIC
-              </BalanceText>
+                {userEthBalance?.toSignificant(4)} GTPS
+                </BalanceText>
             ) : null}
             {/**account && Number(userEthBalance?.toSignificant(4)) === 0 ? (
               <BalanceText onClick ={ () => ClaimMatic(account)} style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>

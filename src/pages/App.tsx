@@ -35,7 +35,7 @@ import ManageLair from './QuickLair/ManageLair'
 const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;
-  align-items: flex-start;
+  align-items: flex-centre;
   overflow-x: hidden;
 `
 
@@ -47,10 +47,10 @@ const HeaderWrapper = styled.div`
 
 const BodyWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 100%;
   padding-top: 100px;
-  align-items: centre;
+  align-items: flex-end;
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
