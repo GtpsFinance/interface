@@ -47,10 +47,10 @@ const HeaderWrapper = styled.div`
 
 const BodyWrapper = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   width: 100%;
   padding-top: 100px;
-  align-items: flex-end;
+  align-items: center;
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
