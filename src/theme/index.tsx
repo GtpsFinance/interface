@@ -40,19 +40,19 @@ export function colors(darkMode: boolean): Colors {
     white,
     black,
 
-    // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
+     // text
+    text1: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text2: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text3: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text4: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text5: darkMode ? '#FFFFFF' : '#FFFFFF',
 
     // backgrounds / greys
-    bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#0b8bdf',
-    bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
+    bg1: darkMode ? '#0D0BB1' : '#0D0BB1',
+    bg2: darkMode ? '#1d1f24' : '#0D0BB1',
+    bg3: darkMode ? '#1d1f24' : '#0D0BB1',
+    bg4: darkMode ? '#1d1f24' : '#0D0BB1',
+    bg5: darkMode ? '#1d1f24' : '#0D0BB1',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
