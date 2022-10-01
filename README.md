@@ -1,35 +1,3 @@
-# Quickswap Interface
-
-Interface for Quickswap
-
-## Development
-
-### Install Dependencies
-
-```bash
-yarn
-```
-
-### Run
-
-```bash
-yarn start
-```
-
-### Configuring the environment (optional)
-
-To have the interface default to a different network when a wallet is not connected:
-
-1. Make a copy of `.env` named `.env.local`
-2. Change `REACT_APP_NETWORK_ID` to `"{YOUR_NETWORK_ID}"`
-3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"` 
-
-Note that the interface only works on testnets where both 
-[Quickswap](https://github.com/mudgen/matic-swap/) and 
-[multicall](https://github.com/makerdao/multicall) are deployed.
-The interface will not work on other networks.
-
-## Contributions
-
-**Please open all pull requests against the `master` branch.** 
-CI checks will run against all PRs.
+ROUTER ADDRESS: 0x0adAb5A9129692AB39fBA56d44B0E8b3F85a32df
+FACTORY ADDRESS: 0x0eddc871615f00c529bb387237f36fcc3eb2b1af
+INIT_CODE : 0xce8b884f01e12b8cead3825e3e440078c396f7930d746a4ea4eca4027f1ffb21
