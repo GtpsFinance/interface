@@ -5,8 +5,8 @@ import V1_FACTORY_ABI from './v1_factory.json'
 
 const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
   
-  [ChainId.MUMBAI]: '0xae53b10373744870B528735BE0d26F2938C2d4e9',//TODO: DO NOT SUPPORT V1 ON MUMBAI
-  [ChainId.MATIC]: "0x0eddc871615f00c529bb387237f36fcc3eb2b1af"
+  [ChainId.MUMBAI]: '0xb350F3e673a93C3afA6AFcd10846beA47c6Feb97',//TODO: DO NOT SUPPORT V1 ON MUMBAI
+  [ChainId.MATIC]: "0x2fcb5d3ab09b5a3aefca6fda5c62074411aea6b3"
 }
 
 const V1_FACTORY_INTERFACE = new Interface(V1_FACTORY_ABI)
