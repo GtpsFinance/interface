@@ -50,16 +50,16 @@ export function colors(darkMode: boolean): Colors {
     // backgrounds / greys
     bg1: darkMode ? '#0D0BB1' : '#0D0BB1',
     bg2: darkMode ? '#0D0BB1' : '#0D0BB1',
-    bg3: darkMode ? '#1d1f24' : '#0D0BB1',
-    bg4: darkMode ? '#1d1f24' : '#0D0BB1',
-    bg5: darkMode ? '#1d1f24' : '#0D0BB1',
+    bg3: darkMode ? '#0D0BB1' : '#0D0BB1',
+    bg4: darkMode ? '#0D0BB1' : '#0D0BB1',
+    bg5: darkMode ? '#0D0BB1' : '#0D0BB1',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2172E5' : '#2891F9',
+    primary1: darkMode ? '#2172E5' : '#0D0BB1',
     primary2: darkMode ? '#3680E7' : '#FF8CC3',
     primary3: darkMode ? '#4D8FEA' : '#2891F9',
     primary4: darkMode ? '#376bad70' : '#F6DDE8',
@@ -214,7 +214,7 @@ html {
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
-  background-color: ${({ theme }) => theme.bg2};
+  background-color: rgba(13, 11, 177, 0);
 }
 
 body {
