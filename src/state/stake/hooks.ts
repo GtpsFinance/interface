@@ -2,11 +2,11 @@ import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, Pair } from '@uniswa
 import { useMemo, useEffect/** , useState */ } from 'react'
 import { usePair } from '../../data/Reserves'
 
-import { client } from '../../apollo/client'
+
+import { withApollo } from '@apollo/client/react/hoc'
 import {
   PAIRS_BULK,
   PAIRS_HISTORICAL_BULK
-} from '../../apollo/queries'
 import { 
   UNI,
   USDC,
